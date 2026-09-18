@@ -79,12 +79,12 @@ export const CleanHero: React.FC = () => {
           {/* Price Anchor */}
           <div className="bg-gradient-to-r from-amber-500/15 via-orange-500/10 to-amber-500/15 border border-amber-300/90 rounded-xl py-2.5 px-3.5 mb-2.5 flex items-center justify-between text-left shadow-2xs">
             <div>
-              <div className="text-[12px] text-slate-400 line-through font-bold">Rp497.000</div>
+              <div className="text-[12px] text-slate-600 line-through font-extrabold">Rp497.000</div>
               <div className="text-[20px] sm:text-[22px] font-black text-slate-950 leading-none">Rp249.000</div>
             </div>
-            <div className="text-right text-[11.5px] sm:text-[12px] font-bold text-slate-600">
+            <div className="text-right text-[11.5px] sm:text-[12px] font-bold text-slate-700">
               <div>Sekali bayar • Lifetime Access</div>
-              <div className="text-emerald-700 font-extrabold">Tanpa biaya bulanan</div>
+              <div className="text-emerald-800 font-black">Tanpa biaya bulanan</div>
             </div>
           </div>
 
@@ -92,6 +92,7 @@ export const CleanHero: React.FC = () => {
             id="cta_hero"
             href={checkoutUrl}
             onClick={handleCtaClick}
+            aria-label="Klik untuk checkout SMART AUDIT SYSTEM Rp249.000"
             className="w-full min-h-[66px] bg-gradient-to-r from-[#e24021] via-[#ea4829] to-[#cf3519] hover:from-[#cf3519] hover:to-[#b72d14] active:scale-[0.98] text-white font-black text-[16.5px] sm:text-[18px] rounded-2xl flex flex-col items-center justify-center shadow-xl shadow-[#e24021]/40 transition-all text-center tracking-tight px-3.5 py-3 border-2 border-amber-300/50 group relative overflow-hidden ring-4 ring-[#e24021]/20"
           >
             {/* Shimmer Light Sweep */}
@@ -111,9 +112,9 @@ export const CleanHero: React.FC = () => {
             <a
               href={getWhatsAppUrl('hero_wa', 'Halo Admin, saya ingin bertanya tentang SMART AUDIT SYSTEM (Rp249.000) sebelum membeli. Apakah bisa dibantu?')}
               onClick={() => trackWhatsAppClick('hero_wa')}
-              className="inline-flex items-center gap-1.5 text-[12.5px] font-bold text-slate-500 hover:text-emerald-700 transition-colors"
+              className="inline-flex items-center gap-1.5 text-[12.5px] font-bold text-slate-600 hover:text-emerald-800 transition-colors"
             >
-              <span>Masih punya pertanyaan sebelum membeli? <span className="text-emerald-700 font-extrabold underline">Hubungi Admin via WhatsApp</span></span>
+              <span>Masih punya pertanyaan sebelum membeli? <span className="text-emerald-800 font-black underline">Hubungi Admin via WhatsApp</span></span>
             </a>
           </div>
         </div>
@@ -134,6 +135,8 @@ export const CleanHero: React.FC = () => {
             <img
               src={SMARTBOOK_IMAGES.dashboard.webpLocal}
               alt="Dashboard SMART AUDIT SYSTEM Mockup"
+              width={1200}
+              height={675}
               className="w-full h-auto object-cover rounded-b-xl block"
               onError={(e) =>
                 handleImageFallback(
@@ -144,6 +147,7 @@ export const CleanHero: React.FC = () => {
                 )
               }
               loading="eager"
+              fetchPriority="high"
             />
           </picture>
         </div>

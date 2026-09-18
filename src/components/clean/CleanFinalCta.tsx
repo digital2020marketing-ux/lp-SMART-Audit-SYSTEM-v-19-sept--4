@@ -46,10 +46,10 @@ export const CleanFinalCta: React.FC = () => {
             Professional Audit Execution Framework
           </div>
 
-          <div className="text-[11px] font-black uppercase tracking-wider text-slate-400 mb-0.5">
+          <div className="text-[11px] font-black uppercase tracking-wider text-slate-300 mb-0.5">
             NILAI PAKET LENGKAP
           </div>
-          <div className="text-[16px] text-slate-500 line-through font-bold mb-2">
+          <div className="text-[16px] text-slate-400 line-through font-bold mb-2">
             Rp497.000
           </div>
 
@@ -57,12 +57,12 @@ export const CleanFinalCta: React.FC = () => {
             Rp249.000
           </div>
 
-          <div className="text-[13px] sm:text-[13.5px] font-bold text-slate-300 mb-4">
+          <div className="text-[13px] sm:text-[13.5px] font-bold text-slate-200 mb-4">
             Sekali Bayar • Lifetime Access • Tanpa Biaya Bulanan
           </div>
 
           {/* Deliverables summary */}
-          <div className="grid grid-cols-2 gap-2 text-[12px] font-bold text-slate-300 pt-3.5 border-t border-slate-800 text-left">
+          <div className="grid grid-cols-2 gap-2 text-[12px] font-bold text-slate-200 pt-3.5 border-t border-slate-800 text-left">
             {deliverables.map((item, idx) => (
               <div key={idx} className="flex items-center gap-1.5">
                 <span className="text-emerald-400 font-black">✓</span>
@@ -77,6 +77,7 @@ export const CleanFinalCta: React.FC = () => {
           id="cta_final"
           href={checkoutUrl}
           onClick={handleCtaClick}
+          aria-label="Klik untuk checkout sekarang seharga Rp249.000"
           className="w-full min-h-[66px] bg-gradient-to-r from-[#e24021] via-[#ea4829] to-[#cf3519] hover:from-[#cf3519] hover:to-[#b72d14] active:scale-[0.98] text-white font-black text-[16.5px] sm:text-[18px] rounded-2xl flex flex-col items-center justify-center shadow-xl shadow-[#e24021]/40 transition-all text-center tracking-tight mb-3 px-3.5 py-3 border-2 border-amber-300/50 group relative overflow-hidden ring-4 ring-[#e24021]/20"
         >
           {/* Shimmer Light Sweep */}
@@ -96,9 +97,9 @@ export const CleanFinalCta: React.FC = () => {
           <a
             href={getWhatsAppUrl('final_cta_wa', 'Halo Admin, saya ingin bertanya tentang SMART AUDIT SYSTEM (Rp249.000) sebelum checkout.')}
             onClick={() => trackWhatsAppClick('final_cta_wa')}
-            className="inline-flex items-center gap-1.5 text-[12.5px] font-bold text-slate-400 hover:text-emerald-400 transition-colors"
+            className="inline-flex items-center gap-1.5 text-[12.5px] font-bold text-slate-300 hover:text-emerald-300 transition-colors"
           >
-            <span>Masih punya pertanyaan sebelum membeli? <span className="text-emerald-400 font-extrabold underline">Hubungi Admin via WhatsApp</span></span>
+            <span>Masih punya pertanyaan sebelum membeli? <span className="text-emerald-300 font-black underline">Hubungi Admin via WhatsApp</span></span>
           </a>
         </div>
       </div>

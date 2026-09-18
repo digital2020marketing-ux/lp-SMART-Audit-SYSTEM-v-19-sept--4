@@ -79,6 +79,7 @@ export const CleanFooter: React.FC = () => {
               <button
                 type="button"
                 onClick={() => setActiveModal(null)}
+                aria-label="Tutup modal informasi hukum"
                 className="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold flex items-center justify-center"
               >
                 ✕

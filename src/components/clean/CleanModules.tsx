@@ -29,6 +29,8 @@ export const CleanModules: React.FC = () => {
             <img
               src={SMARTBOOK_IMAGES.modul9.webpLocal}
               alt="9 Modul Audit Terstruktur Mockup"
+              width={1200}
+              height={675}
               className="w-full h-auto object-cover rounded-xl block"
               onError={(e) =>
                 handleImageFallback(
@@ -39,6 +41,7 @@ export const CleanModules: React.FC = () => {
                 )
               }
               loading="lazy"
+              decoding="async"
             />
           </picture>
         </div>

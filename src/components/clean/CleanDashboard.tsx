@@ -37,6 +37,8 @@ export const CleanDashboard: React.FC = () => {
             <img
               src={SMARTBOOK_IMAGES.dashboard.webpLocal}
               alt="Dashboard SMART AUDIT SYSTEM"
+              width={1200}
+              height={675}
               className="w-full h-auto object-cover rounded-b-xl block"
               onError={(e) =>
                 handleImageFallback(
@@ -47,6 +49,7 @@ export const CleanDashboard: React.FC = () => {
                 )
               }
               loading="lazy"
+              decoding="async"
             />
           </picture>
         </div>

@@ -39,7 +39,7 @@ export const CleanSimulation: React.FC = () => {
                   {item}
                 </span>
                 {idx < simulationFlow.length - 1 && (
-                  <span className="text-slate-400 font-black text-[13px] select-none">→</span>
+                  <span className="text-slate-600 font-black text-[13px] select-none">→</span>
                 )}
               </React.Fragment>
             ))}
@@ -53,6 +53,8 @@ export const CleanSimulation: React.FC = () => {
             <img
               src={SMARTBOOK_IMAGES.simulasi.webpLocal}
               alt="Simulasi Praktik Audit Mockup"
+              width={1200}
+              height={675}
               className="w-full h-auto object-cover rounded-xl block"
               onError={(e) =>
                 handleImageFallback(
@@ -63,6 +65,7 @@ export const CleanSimulation: React.FC = () => {
                 )
               }
               loading="lazy"
+              decoding="async"
             />
           </picture>
         </div>

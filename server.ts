@@ -18,6 +18,13 @@ async function startServer() {
   app.use(compression());
   app.use(express.json());
 
+  // Security and Best Practice Headers
+  app.use((req, res, next) => {
+    res.setHeader('X-Content-Type-Options', 'nosniff');
+    res.setHeader('Referrer-Policy', 'strict-origin-when-cross-origin');
+    next();
+  });
+
   // Serve static files with aggressive 1-year immutable caching
   app.use(
     express.static(path.join(process.cwd(), 'public'), {

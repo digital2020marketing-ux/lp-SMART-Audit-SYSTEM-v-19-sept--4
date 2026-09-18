@@ -101,6 +101,8 @@ export const CleanWorkbooks: React.FC = () => {
             <img
               src={SMARTBOOK_IMAGES.worksheet.webpLocal}
               alt="7 Professional Audit Workbooks Mockup"
+              width={1200}
+              height={675}
               className="w-full h-auto object-cover rounded-xl block"
               onError={(e) =>
                 handleImageFallback(
@@ -111,6 +113,7 @@ export const CleanWorkbooks: React.FC = () => {
                 )
               }
               loading="lazy"
+              decoding="async"
             />
           </picture>
         </div>

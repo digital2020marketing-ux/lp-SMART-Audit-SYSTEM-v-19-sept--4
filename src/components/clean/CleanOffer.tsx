@@ -90,10 +90,10 @@ export const CleanOffer: React.FC = () => {
 
           {/* High-Converting Price & Action Card */}
           <div className="bg-white border-2 border-slate-300 rounded-2xl p-5 sm:p-6 mb-5 text-center shadow-md">
-            <div className="text-[11.5px] font-black tracking-wider uppercase text-slate-500 mb-1">
+            <div className="text-[11.5px] font-black tracking-wider uppercase text-slate-600 mb-1">
               TOTAL NILAI PAKET LENGKAP
             </div>
-            <div className="text-[18px] text-slate-400 font-bold line-through mb-1">
+            <div className="text-[18px] text-slate-600 font-extrabold line-through mb-1">
               Rp497.000
             </div>
 
@@ -110,17 +110,17 @@ export const CleanOffer: React.FC = () => {
             </div>
 
             {/* Micro Guarantees */}
-            <div className="bg-slate-50 border border-slate-200 rounded-xl p-3 mb-4 text-left space-y-1.5 text-[12.5px] font-bold text-slate-700">
+            <div className="bg-slate-50 border border-slate-200 rounded-xl p-3 mb-4 text-left space-y-1.5 text-[12.5px] font-bold text-slate-800">
               <div className="flex items-center gap-2">
-                <span className="text-emerald-600 font-black">✓</span>
+                <span className="text-emerald-700 font-black">✓</span>
                 <span>Akses digital instan dikirim via email aktif</span>
               </div>
               <div className="flex items-center gap-2">
-                <span className="text-emerald-600 font-black">✓</span>
+                <span className="text-emerald-700 font-black">✓</span>
                 <span>File workbook standar (.xlsx &amp; .docx) bebas edit &amp; salin</span>
               </div>
               <div className="flex items-center gap-2">
-                <span className="text-emerald-600 font-black">✓</span>
+                <span className="text-emerald-700 font-black">✓</span>
                 <span>Garansi 7 Hari uang kembali jika tidak sesuai kebutuhan</span>
               </div>
             </div>
@@ -130,6 +130,7 @@ export const CleanOffer: React.FC = () => {
               id="cta_offer"
               href={checkoutUrl}
               onClick={handleCtaClick}
+              aria-label="Klik di sini untuk checkout sekarang seharga Rp249.000"
               className="w-full min-h-[66px] bg-gradient-to-r from-[#e24021] via-[#ea4829] to-[#cf3519] hover:from-[#cf3519] hover:to-[#b72d14] active:scale-[0.98] text-white font-black text-[16.5px] sm:text-[18px] rounded-2xl flex flex-col items-center justify-center shadow-xl shadow-[#e24021]/40 transition-all text-center tracking-tight mb-2.5 px-3.5 py-3 border-2 border-amber-300/50 group relative overflow-hidden ring-4 ring-[#e24021]/20"
             >
               {/* Shimmer Light Sweep */}
@@ -149,9 +150,9 @@ export const CleanOffer: React.FC = () => {
               <a
                 href={getWhatsAppUrl('offer_wa', 'Halo Admin, saya ingin bertanya tentang SMART AUDIT SYSTEM (Rp249.000) sebelum checkout. Apakah bisa dibantu?')}
                 onClick={() => trackWhatsAppClick('offer_wa')}
-                className="inline-flex items-center gap-1.5 text-[12.5px] font-bold text-slate-500 hover:text-emerald-700 transition-colors"
+                className="inline-flex items-center gap-1.5 text-[12.5px] font-bold text-slate-600 hover:text-emerald-800 transition-colors"
               >
-                <span>Masih punya pertanyaan sebelum membeli? <span className="text-emerald-700 font-extrabold underline">Hubungi Admin via WhatsApp</span></span>
+                <span>Masih punya pertanyaan sebelum membeli? <span className="text-emerald-800 font-black underline">Hubungi Admin via WhatsApp</span></span>
               </a>
             </div>
           </div>

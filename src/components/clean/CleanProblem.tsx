@@ -69,9 +69,9 @@ export const CleanProblem: React.FC = () => {
         {/* Closing Highlight Sesuai Priority 8 */}
         <div className="bg-slate-950 text-white border border-slate-800 rounded-2xl p-5 text-center shadow-md space-y-3">
           <div className="space-y-1">
-            <h3 className="text-[17px] sm:text-[19px] font-extrabold text-slate-200 leading-snug">
+            <p className="text-[17px] sm:text-[19px] font-extrabold text-slate-200 leading-snug">
               Masalahnya sering kali bukan kurang teori.
-            </h3>
+            </p>
             <h3 className="text-[18px] sm:text-[20px] font-black text-white leading-snug">
               Masalahnya adalah belum memiliki sistem kerja audit yang menghubungkan teori dengan eksekusi.
             </h3>

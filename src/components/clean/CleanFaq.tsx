@@ -62,6 +62,8 @@ export const CleanFaq: React.FC = () => {
                 <button
                   type="button"
                   onClick={() => toggleFaq(idx)}
+                  aria-expanded={isOpen}
+                  aria-controls={`faq-answer-${idx}`}
                   className="w-full py-3.5 px-3.5 sm:px-4 text-left flex items-center justify-between gap-2.5 font-black text-slate-950 text-[14px] sm:text-[15.5px] hover:text-blue-900 transition-colors"
                 >
                   <span className="leading-snug min-w-0 break-words">{faq.q}</span>
@@ -72,7 +74,10 @@ export const CleanFaq: React.FC = () => {
                   />
                 </button>
                 {isOpen && (
-                  <div className="px-3.5 sm:px-4 pb-4 pt-1 text-[13px] sm:text-[14px] text-slate-700 font-medium leading-relaxed border-t border-slate-200 break-words">
+                  <div
+                    id={`faq-answer-${idx}`}
+                    className="px-3.5 sm:px-4 pb-4 pt-1 text-[13px] sm:text-[14px] text-slate-700 font-medium leading-relaxed border-t border-slate-200 break-words"
+                  >
                     {faq.a}
                   </div>
                 )}
