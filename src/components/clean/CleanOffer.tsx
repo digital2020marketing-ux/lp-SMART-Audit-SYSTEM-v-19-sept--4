@@ -5,7 +5,7 @@ export const CleanOffer: React.FC = () => {
   const checkoutUrl = getCheckoutUrl();
 
   const handleCtaClick = () => {
-    trackCheckoutClick('offer_cta', 'Offer - KLIK UNTUK CHECKOUT SEKARANG — Rp249.000');
+    trackCheckoutClick('offer_cta', 'Offer - KLIK UNTUK CHECKOUT SEKARANG — Rp149.000');
   };
 
   const stackTable = [
@@ -91,18 +91,18 @@ export const CleanOffer: React.FC = () => {
           {/* High-Converting Price & Action Card */}
           <div className="bg-white border-2 border-slate-300 rounded-2xl p-5 sm:p-6 mb-5 text-center shadow-md">
             <div className="text-[11.5px] font-black tracking-wider uppercase text-slate-600 mb-1">
-              TOTAL NILAI PAKET LENGKAP
+              TOTAL NILAI KOMPONEN
             </div>
             <div className="text-[18px] text-slate-600 font-extrabold line-through mb-1">
               Rp497.000
             </div>
 
             <div className="text-[11px] font-black text-blue-900 uppercase tracking-wider mb-1">
-              INVESTASI AKSES HARI INI
+              AKSES SMART AUDIT SYSTEM
             </div>
 
             <div className="text-[46px] sm:text-[52px] font-black text-slate-950 tracking-tight leading-none mb-1.5">
-              Rp249.000
+              Rp149.000
             </div>
 
             <div className="text-[13.5px] sm:text-[14px] font-black text-slate-800 mb-4">
@@ -130,25 +130,25 @@ export const CleanOffer: React.FC = () => {
               id="cta_offer"
               href={checkoutUrl}
               onClick={handleCtaClick}
-              aria-label="Klik di sini untuk checkout sekarang seharga Rp249.000"
+              aria-label="Klik di sini untuk checkout sekarang seharga Rp149.000"
               className="w-full min-h-[66px] bg-gradient-to-r from-[#e24021] via-[#ea4829] to-[#cf3519] hover:from-[#cf3519] hover:to-[#b72d14] active:scale-[0.98] text-white font-black text-[16.5px] sm:text-[18px] rounded-2xl flex flex-col items-center justify-center shadow-xl shadow-[#e24021]/40 transition-all text-center tracking-tight mb-2.5 px-3.5 py-3 border-2 border-amber-300/50 group relative overflow-hidden ring-4 ring-[#e24021]/20"
             >
               {/* Shimmer Light Sweep */}
               <div className="absolute inset-0 w-1/2 h-full bg-gradient-to-r from-transparent via-white/30 to-transparent skew-x-[-20deg] pointer-events-none animate-shimmer-sweep" />
 
               <span className="flex items-center justify-center gap-2 text-white relative z-10">
-                <span className="drop-shadow-xs">KLIK DI SINI UNTUK CHECKOUT SEKARANG</span>
+                <span className="drop-shadow-xs">⚡ CHECKOUT SMART AUDIT SYSTEM — Rp149.000</span>
                 <span className="text-xl group-hover:translate-x-1.5 transition-transform font-black">→</span>
               </span>
               <span className="text-[12px] sm:text-[12.5px] font-bold text-amber-100 mt-1 relative z-10 flex items-center gap-1.5 drop-shadow-xs">
-                <span>⚡ Rp249.000 • Akses Digital Langsung Aktif</span>
+                <span>Sekali bayar • Lifetime Access • Garansi 7 Hari</span>
               </span>
             </a>
 
             {/* Secondary WhatsApp Support */}
             <div className="pt-2 text-center">
               <a
-                href={getWhatsAppUrl('offer_wa', 'Halo Admin, saya ingin bertanya tentang SMART AUDIT SYSTEM (Rp249.000) sebelum checkout. Apakah bisa dibantu?')}
+                href={getWhatsAppUrl('offer_wa', 'Halo Admin, saya ingin bertanya tentang SMART AUDIT SYSTEM (Rp149.000) sebelum checkout. Apakah bisa dibantu?')}
                 onClick={() => trackWhatsAppClick('offer_wa')}
                 className="inline-flex items-center gap-1.5 text-[12.5px] font-bold text-slate-600 hover:text-emerald-800 transition-colors"
               >

@@ -30,7 +30,8 @@ export const CleanDashboard: React.FC = () => {
               <span className="w-2 h-2 rounded-full bg-amber-500"></span>
               <span className="w-2 h-2 rounded-full bg-emerald-500"></span>
             </div>
-            <span className="text-slate-300 text-[10px] sm:text-[11px] font-bold truncate min-w-0">smart-audit-system.internal/dashboard</span>
+            <span className="text-slate-300 text-[10px] sm:text-[11px] font-bold uppercase tracking-wider truncate min-w-0">SMART AUDIT SYSTEM • DIGITAL DASHBOARD</span>
+            <span className="text-[9px] text-blue-400 font-extrabold uppercase tracking-wider shrink-0 hidden xs:inline-block">PORTAL</span>
           </div>
           <picture>
             <source srcSet={SMARTBOOK_IMAGES.dashboard.webpLocal} type="image/webp" />

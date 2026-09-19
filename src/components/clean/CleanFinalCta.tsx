@@ -5,7 +5,7 @@ export const CleanFinalCta: React.FC = () => {
   const checkoutUrl = getCheckoutUrl();
 
   const handleCtaClick = () => {
-    trackCheckoutClick('final_cta', 'Final - KLIK UNTUK CHECKOUT SEKARANG — Rp249.000');
+    trackCheckoutClick('final_cta', 'Final - KLIK UNTUK CHECKOUT SEKARANG — Rp149.000');
   };
 
   const deliverables = [
@@ -13,28 +13,33 @@ export const CleanFinalCta: React.FC = () => {
     '7 Audit Workbooks',
     '5 AI Audit Frameworks',
     'Simulasi & Studi Kasus',
+    'Audio Pendalaman',
     'Dashboard Terintegrasi',
-    'Garansi 7 Hari 100% Aman',
+    'Garansi 7 Hari',
   ];
 
   return (
     <section className="bg-slate-950 text-white py-12 px-3.5 sm:px-6 border-b border-slate-900 w-full overflow-hidden" id="final-cta">
       <div className="w-full text-center max-w-full sm:max-w-[480px] mx-auto">
         {/* Eyebrow */}
-        <div className="flex justify-center mb-3">
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-900 text-white text-[11px] sm:text-[12px] font-black tracking-wider uppercase border border-slate-800 shadow-xs">
-            <span>AUDIT EXECUTION READINESS</span>
+        <div className="flex flex-col items-center justify-center gap-1.5 mb-3">
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-950/80 text-emerald-300 text-[11px] sm:text-[12px] font-black tracking-wider uppercase border border-emerald-700/60 shadow-xs">
+            <span className="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+            <span>★ SANGAT COCOK UNTUK AUDITOR PEMULA</span>
+          </div>
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-900 text-slate-300 text-[11px] sm:text-[11.5px] font-bold tracking-wider uppercase border border-slate-800">
+            <span>AUDIT EXECUTION READINESS • ISO 9001 &amp; ISO 19011</span>
           </div>
         </div>
 
-        {/* Headline */}
+        {/* Headline - Final CTA */}
         <h2 className="text-[22px] sm:text-[28px] font-black text-white leading-[1.22] tracking-tight mb-3 text-center uppercase break-words px-1">
-          AUDIT BERIKUTNYA TIDAK PERLU DIMULAI DARI FILE KOSONG.
+          JALANKAN AUDIT INTERNAL DENGAN WORKFLOW YANG JELAS DAN TERSTRUKTUR.
         </h2>
 
         {/* Subhead */}
-        <p className="text-[14.5px] sm:text-[16px] text-slate-300 leading-relaxed mb-6 text-center font-medium">
-          Miliki workflow, workbook, AI framework, dan simulasi yang membantu Anda menjalankan proses audit secara lebih terstruktur.
+        <p className="text-[14px] sm:text-[15.5px] text-slate-300 leading-relaxed mb-6 text-center font-medium">
+          Gunakan workflow audit, 7 workbooks, PLOR Framework, simulasi kasus, dan 5 AI Audit Frameworks untuk membantu Anda menyiapkan dan menjalankan proses audit internal secara lebih sistematis.
         </p>
 
         {/* Product Box in dark mode */}
@@ -46,15 +51,19 @@ export const CleanFinalCta: React.FC = () => {
             Professional Audit Execution Framework
           </div>
 
-          <div className="text-[11px] font-black uppercase tracking-wider text-slate-300 mb-0.5">
-            NILAI PAKET LENGKAP
+          <div className="text-[11px] font-black uppercase tracking-wider text-slate-400 mb-0.5">
+            TOTAL NILAI KOMPONEN
           </div>
           <div className="text-[16px] text-slate-400 line-through font-bold mb-2">
             Rp497.000
           </div>
 
+          <div className="text-[11px] font-black text-blue-400 uppercase tracking-wider mb-1">
+            AKSES SMART AUDIT SYSTEM
+          </div>
+
           <div className="text-[44px] sm:text-[50px] font-black text-white tracking-tight leading-none mb-1.5">
-            Rp249.000
+            Rp149.000
           </div>
 
           <div className="text-[13px] sm:text-[13.5px] font-bold text-slate-200 mb-4">
@@ -77,25 +86,25 @@ export const CleanFinalCta: React.FC = () => {
           id="cta_final"
           href={checkoutUrl}
           onClick={handleCtaClick}
-          aria-label="Klik untuk checkout sekarang seharga Rp249.000"
+          aria-label="Klik untuk checkout sekarang seharga Rp149.000"
           className="w-full min-h-[66px] bg-gradient-to-r from-[#e24021] via-[#ea4829] to-[#cf3519] hover:from-[#cf3519] hover:to-[#b72d14] active:scale-[0.98] text-white font-black text-[16.5px] sm:text-[18px] rounded-2xl flex flex-col items-center justify-center shadow-xl shadow-[#e24021]/40 transition-all text-center tracking-tight mb-3 px-3.5 py-3 border-2 border-amber-300/50 group relative overflow-hidden ring-4 ring-[#e24021]/20"
         >
           {/* Shimmer Light Sweep */}
           <div className="absolute inset-0 w-1/2 h-full bg-gradient-to-r from-transparent via-white/30 to-transparent skew-x-[-20deg] pointer-events-none animate-shimmer-sweep" />
 
           <span className="flex items-center justify-center gap-2 text-white relative z-10">
-            <span className="drop-shadow-xs">KLIK UNTUK CHECKOUT SEKARANG — Rp249.000</span>
+            <span className="drop-shadow-xs">⚡ CHECKOUT SMART AUDIT SYSTEM — Rp149.000</span>
             <span className="text-xl group-hover:translate-x-1.5 transition-transform font-black">→</span>
           </span>
           <span className="text-[12px] sm:text-[12.5px] font-bold text-amber-100 mt-1 relative z-10 flex items-center gap-1.5 drop-shadow-xs">
-            <span>Akses digital instan setelah pembayaran berhasil</span>
+            <span>Sekali bayar • Lifetime Access • Garansi 7 Hari</span>
           </span>
         </a>
 
         {/* Secondary WhatsApp Helper */}
         <div className="mt-2 text-center">
           <a
-            href={getWhatsAppUrl('final_cta_wa', 'Halo Admin, saya ingin bertanya tentang SMART AUDIT SYSTEM (Rp249.000) sebelum checkout.')}
+            href={getWhatsAppUrl('final_cta_wa', 'Halo Admin, saya ingin bertanya tentang SMART AUDIT SYSTEM (Rp149.000) sebelum checkout.')}
             onClick={() => trackWhatsAppClick('final_cta_wa')}
             className="inline-flex items-center gap-1.5 text-[12.5px] font-bold text-slate-300 hover:text-emerald-300 transition-colors"
           >

@@ -5,7 +5,7 @@ export const CleanCostComparison: React.FC = () => {
   const checkoutUrl = getCheckoutUrl();
 
   const handleCtaClick = () => {
-    trackCheckoutClick('cost_comparison_cta', 'Model Investasi - MULAI GUNAKAN SMART AUDIT SYSTEM — Rp249.000');
+    trackCheckoutClick('cost_comparison_cta', 'Model Investasi - MULAI GUNAKAN SMART AUDIT SYSTEM — Rp149.000');
   };
 
   return (
@@ -71,7 +71,7 @@ export const CleanCostComparison: React.FC = () => {
             </h3>
             <div className="flex items-baseline gap-2 my-2">
               <span className="text-[32px] sm:text-[36px] font-black text-slate-950 leading-none">
-                Rp249.000
+                Rp149.000
               </span>
               <span className="text-[13px] text-slate-500 font-bold">
                 (Sekali Bayar)
@@ -100,7 +100,7 @@ export const CleanCostComparison: React.FC = () => {
                 <div className="absolute inset-0 w-1/2 h-full bg-gradient-to-r from-transparent via-white/30 to-transparent skew-x-[-20deg] pointer-events-none animate-shimmer-sweep" />
 
                 <span className="flex items-center justify-center gap-2 relative z-10">
-                  <span className="drop-shadow-xs">KLIK DI SINI UNTUK CHECKOUT — Rp249.000</span>
+                  <span className="drop-shadow-xs">KLIK DI SINI UNTUK CHECKOUT — Rp149.000</span>
                   <span className="group-hover:translate-x-1.5 transition-transform font-black">→</span>
                 </span>
               </a>

@@ -6,7 +6,7 @@ export const CleanHero: React.FC = () => {
   const checkoutUrl = getCheckoutUrl();
 
   const handleCtaClick = () => {
-    trackCheckoutClick('hero_cta', 'Hero - MULAI GUNAKAN SMART AUDIT SYSTEM — Rp249.000');
+    trackCheckoutClick('hero_cta', 'Hero - MULAI GUNAKAN SMART AUDIT SYSTEM — Rp149.000');
   };
 
   const auditFlow = [
@@ -21,10 +21,12 @@ export const CleanHero: React.FC = () => {
   ];
 
   const mainValues = [
-    '100% Ramah Auditor Pemula',
-    '9 Modul Panduan ISO',
+    '9 Modul Panduan',
     '7 Audit Workbooks',
-    '5 AI Frameworks & Kasus',
+    '5 AI Audit Frameworks',
+    'Simulasi & Studi Kasus',
+    'Audio Pendalaman',
+    'Dashboard Terintegrasi',
   ];
 
   return (
@@ -32,14 +34,14 @@ export const CleanHero: React.FC = () => {
       <div className="w-full text-center max-w-full sm:max-w-[480px] mx-auto">
         {/* Eyebrow Pill & ISO Clarification Tag */}
         <div className="flex flex-col items-center justify-center gap-1.5 mb-3">
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-100 text-emerald-900 border border-emerald-300 text-[11px] sm:text-[12px] font-black uppercase tracking-wide">
+          <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-emerald-100 text-emerald-950 border border-emerald-300 text-[11px] sm:text-[12.5px] font-black uppercase tracking-wide shadow-2xs">
             <span className="w-2 h-2 rounded-full bg-emerald-600"></span>
-            <span>Sangat Cocok untuk Auditor Pemula &amp; Tim Mutu</span>
+            <span>★ SANGAT COCOK UNTUK AUDITOR PEMULA</span>
           </div>
 
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-950 text-white text-[11.5px] sm:text-[13px] font-black tracking-wider uppercase shadow-xs border border-slate-800">
             <span className="w-2 h-2 rounded-full bg-blue-400"></span>
-            <span>AUDIT INTERNAL ISO 9001 &amp; ISO 19011</span>
+            <span>AUDIT INTERNAL ISO 9001 • MENGACU PADA ISO 19011</span>
           </div>
           <div className="inline-flex items-center gap-1 text-[10.5px] sm:text-[11.5px] font-bold text-slate-500 uppercase tracking-wider flex-wrap justify-center">
             <span>SISTEM MANAJEMEN MUTU &amp; OPERASIONAL</span>
@@ -48,26 +50,31 @@ export const CleanHero: React.FC = () => {
           </div>
         </div>
 
-        {/* H1 Headline */}
-        <h1 className="text-[25px] sm:text-[34px] font-black text-slate-950 leading-[1.2] tracking-tight mb-3 text-center uppercase break-words">
-          JANGAN MULAI AUDIT DARI FILE KOSONG.
+        {/* H1 Headline - Main Punchy Hook */}
+        <h1 className="text-[26px] sm:text-[34px] font-black text-slate-950 leading-[1.15] tracking-tight mb-2.5 text-center uppercase break-words px-0.5">
+          JANGAN TURUN AUDIT DENGAN RASA RAGU.
         </h1>
 
-        {/* Subheadline - Short, punchy, & focused */}
-        <p className="text-[15px] sm:text-[17px] text-slate-700 font-semibold leading-relaxed mb-3 text-center mx-auto max-w-[480px]">
-          Framework Audit Internal yang Membantu Anda Mulai dari Checklist hingga Laporan — Tanpa Harus Menyusun Semuanya dari Nol.
-        </p>
+        {/* H2 Subheadline - Pain Titik Buta Auditor */}
+        <h2 className="text-[15.5px] sm:text-[17.5px] font-black text-rose-900 leading-snug mb-3.5 text-center uppercase bg-rose-50 border border-rose-200/90 py-2 px-3 rounded-xl mx-auto max-w-[480px]">
+          TAHU ISO-NYA, TAPI BINGUNG HARUS BERTANYA APA, MENCARI BUKTI APA, DAN MENULIS TEMUAN BAGAIMANA?
+        </h2>
 
-        {/* Standard Anchor Tag */}
-        <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-100 text-slate-800 text-[12px] font-extrabold mb-4 border border-slate-200">
-          <span>Berbasis ISO 9001 &amp; ISO 19011</span>
+        {/* Deskripsi Solusi Workflow & Komponen */}
+        <div className="space-y-2 mb-4 text-center mx-auto max-w-[480px]">
+          <p className="text-[14px] sm:text-[15.5px] text-slate-800 font-bold leading-relaxed">
+            SMART AUDIT SYSTEM membantu Anda menjalankan audit internal dengan workflow terstruktur dari <span className="text-slate-950 font-black">persiapan → checklist → pertanyaan → evidence → temuan → root cause → CAPA → laporan</span>.
+          </p>
+          <p className="text-[13px] sm:text-[14px] text-slate-600 font-semibold leading-relaxed">
+            Dilengkapi 9 Modul Panduan, 7 Audit Workbooks, 5 AI Audit Frameworks, Simulasi Kasus, Audio, dan Dashboard Terintegrasi.
+          </p>
         </div>
 
         {/* 4 Value Badges */}
         <div className="bg-blue-50/90 border border-blue-200/90 rounded-xl p-3 sm:p-3.5 mb-5 text-center">
-          <div className="grid grid-cols-2 gap-2 text-[12.5px] sm:text-[13.5px] font-black text-blue-950 text-center">
+          <div className="grid grid-cols-2 gap-2 text-[12px] sm:text-[13px] font-black text-blue-950 text-center">
             {mainValues.map((val, idx) => (
-              <div key={idx} className="bg-white/90 py-1.5 px-2 rounded-lg border border-blue-200/70 shadow-2xs">
+              <div key={idx} className="bg-white/95 py-2 px-2 rounded-lg border border-blue-200/70 shadow-2xs flex items-center justify-center">
                 ✓ {val}
               </div>
             ))}
@@ -80,7 +87,7 @@ export const CleanHero: React.FC = () => {
           <div className="bg-gradient-to-r from-amber-500/15 via-orange-500/10 to-amber-500/15 border border-amber-300/90 rounded-xl py-2.5 px-3.5 mb-2.5 flex items-center justify-between text-left shadow-2xs">
             <div>
               <div className="text-[12px] text-slate-600 line-through font-extrabold">Rp497.000</div>
-              <div className="text-[20px] sm:text-[22px] font-black text-slate-950 leading-none">Rp249.000</div>
+              <div className="text-[20px] sm:text-[22px] font-black text-slate-950 leading-none">Rp149.000</div>
             </div>
             <div className="text-right text-[11.5px] sm:text-[12px] font-bold text-slate-700">
               <div>Sekali bayar • Lifetime Access</div>
@@ -92,14 +99,14 @@ export const CleanHero: React.FC = () => {
             id="cta_hero"
             href={checkoutUrl}
             onClick={handleCtaClick}
-            aria-label="Klik untuk checkout SMART AUDIT SYSTEM Rp249.000"
+            aria-label="Klik untuk checkout SMART AUDIT SYSTEM Rp149.000"
             className="w-full min-h-[66px] bg-gradient-to-r from-[#e24021] via-[#ea4829] to-[#cf3519] hover:from-[#cf3519] hover:to-[#b72d14] active:scale-[0.98] text-white font-black text-[16.5px] sm:text-[18px] rounded-2xl flex flex-col items-center justify-center shadow-xl shadow-[#e24021]/40 transition-all text-center tracking-tight px-3.5 py-3 border-2 border-amber-300/50 group relative overflow-hidden ring-4 ring-[#e24021]/20"
           >
             {/* Shimmer Light Sweep */}
             <div className="absolute inset-0 w-1/2 h-full bg-gradient-to-r from-transparent via-white/30 to-transparent skew-x-[-20deg] pointer-events-none animate-shimmer-sweep" />
 
             <span className="flex items-center justify-center gap-2 text-white relative z-10">
-              <span className="drop-shadow-xs">KLIK UNTUK CHECKOUT — Rp249.000</span>
+              <span className="drop-shadow-xs">⚡ CHECKOUT SMART AUDIT SYSTEM — Rp149.000</span>
               <span className="text-xl group-hover:translate-x-1.5 transition-transform font-black">→</span>
             </span>
             <span className="text-[12px] sm:text-[12.5px] font-bold text-amber-100 mt-1 relative z-10 flex items-center gap-1.5 drop-shadow-xs">
@@ -110,7 +117,7 @@ export const CleanHero: React.FC = () => {
           {/* Secondary WhatsApp Helper */}
           <div className="mt-3 text-center">
             <a
-              href={getWhatsAppUrl('hero_wa', 'Halo Admin, saya ingin bertanya tentang SMART AUDIT SYSTEM (Rp249.000) sebelum membeli. Apakah bisa dibantu?')}
+              href={getWhatsAppUrl('hero_wa', 'Halo Admin, saya ingin bertanya tentang SMART AUDIT SYSTEM (Rp149.000) sebelum membeli. Apakah bisa dibantu?')}
               onClick={() => trackWhatsAppClick('hero_wa')}
               className="inline-flex items-center gap-1.5 text-[12.5px] font-bold text-slate-600 hover:text-emerald-800 transition-colors"
             >
@@ -127,8 +134,8 @@ export const CleanHero: React.FC = () => {
               <span className="w-2 h-2 rounded-full bg-amber-500 inline-block"></span>
               <span className="w-2 h-2 rounded-full bg-emerald-500 inline-block"></span>
             </div>
-            <span className="text-slate-300 text-[10px] sm:text-[11px] font-bold truncate min-w-0">smart-audit-system.internal/dashboard</span>
-            <span className="text-[9px] text-blue-400 font-extrabold uppercase tracking-wider shrink-0 hidden xs:inline-block">TOOLKIT</span>
+            <span className="text-slate-300 text-[10px] sm:text-[11px] font-bold uppercase tracking-wider truncate min-w-0">SMART AUDIT SYSTEM • DIGITAL DASHBOARD</span>
+            <span className="text-[9px] text-blue-400 font-extrabold uppercase tracking-wider shrink-0 hidden xs:inline-block">PORTAL</span>
           </div>
           <picture>
             <source srcSet={SMARTBOOK_IMAGES.dashboard.webpLocal} type="image/webp" />

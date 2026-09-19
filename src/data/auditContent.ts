@@ -184,7 +184,7 @@ export const FAQS: FaqItem[] = [
   },
   {
     question: 'Apakah ada biaya bulanan?',
-    answer: 'Tidak ada biaya bulanan sama sekali. Biaya Rp249.000 adalah investasi sekali bayar untuk akses seumur hidup (Lifetime Access), termasuk pembaruan materi dan dokumen di masa mendatang.'
+    answer: 'Tidak ada biaya bulanan sama sekali. Biaya Rp149.000 adalah investasi sekali bayar untuk akses seumur hidup (Lifetime Access), termasuk pembaruan materi dan dokumen di masa mendatang.'
   },
   {
     question: 'Bagaimana cara mendapatkan akses?',

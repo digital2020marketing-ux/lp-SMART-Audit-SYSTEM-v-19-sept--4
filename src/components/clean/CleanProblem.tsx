@@ -15,7 +15,7 @@ export const CleanProblem: React.FC = () => {
     {
       num: '03',
       title: 'Bingung Menentukan Evidence',
-      desc: 'Tidak yakin dokumen, rekaman, atau bukti objektif apa yang wajib diverifikasi.',
+      desc: 'Tidak yakin dokumen, rekaman, atau bukti objektif apa yang relevan untuk diverifikasi.',
     },
     {
       num: '04',
@@ -73,7 +73,7 @@ export const CleanProblem: React.FC = () => {
               Masalahnya sering kali bukan kurang teori.
             </p>
             <h3 className="text-[18px] sm:text-[20px] font-black text-white leading-snug">
-              Masalahnya adalah belum memiliki sistem kerja audit yang menghubungkan teori dengan eksekusi.
+              Masalahnya adalah belum memiliki framework eksekusi audit yang menghubungkan teori standar dengan praktik nyata di lapangan.
             </h3>
           </div>
 

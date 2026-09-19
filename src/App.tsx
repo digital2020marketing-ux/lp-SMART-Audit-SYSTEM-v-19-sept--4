@@ -55,7 +55,7 @@ export default function App() {
             <div>✓ Akses Seumur Hidup</div>
           </div>
           <a
-            href={getWhatsAppUrl('post_purchase', 'Halo Admin, saya sudah menyelesaikan pembayaran SMART AUDIT SYSTEM Rp249.000. Mohon bantuan aktivasi akses.')}
+            href={getWhatsAppUrl('post_purchase', 'Halo Admin, saya sudah menyelesaikan pembayaran SMART AUDIT SYSTEM Rp149.000. Mohon bantuan aktivasi akses.')}
             target="_blank"
             rel="noopener noreferrer"
             className="w-full h-12 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-xl flex items-center justify-center"

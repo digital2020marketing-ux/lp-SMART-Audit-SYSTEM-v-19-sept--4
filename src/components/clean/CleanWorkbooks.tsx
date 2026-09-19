@@ -6,7 +6,7 @@ export const CleanWorkbooks: React.FC = () => {
   const checkoutUrl = getCheckoutUrl();
 
   const handleCtaClick = () => {
-    trackCheckoutClick('workbooks_cta', 'Workbooks - DAPATKAN 7 WORKBOOK — Rp249.000');
+    trackCheckoutClick('workbooks_cta', 'Workbooks - DAPATKAN 7 WORKBOOK — Rp149.000');
   };
   const workbooks = [
     {
@@ -120,8 +120,11 @@ export const CleanWorkbooks: React.FC = () => {
 
         {/* Clean Pillar Note */}
         <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 text-center max-w-[460px] mx-auto">
-          <p className="text-[13.5px] sm:text-[14px] text-slate-700 leading-relaxed font-semibold">
-            ✓ Format workbook standar (.xlsx &amp; .docx), 100% siap disalin dan disesuaikan untuk kebutuhan seluruh departemen organisasi Anda.
+          <p className="text-[13.5px] sm:text-[14px] text-slate-800 leading-relaxed font-bold mb-1">
+            File dapat diedit dan digunakan sebagai alat bantu audit sesuai kebutuhan pengguna.
+          </p>
+          <p className="text-[12.5px] sm:text-[13px] text-slate-600 leading-relaxed font-medium">
+            Format workbook standar (.xlsx &amp; .docx), siap disalin dan disesuaikan untuk kebutuhan seluruh departemen organisasi Anda.
           </p>
         </div>
       </div>

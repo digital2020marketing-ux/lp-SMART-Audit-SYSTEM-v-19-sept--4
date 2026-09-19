@@ -8,7 +8,7 @@ export const WorkflowOutcomeSection: React.FC = () => {
     { num: '03', title: 'Evidence', desc: 'Memeriksa rekaman, dokumen, observasi, dan bukti objektif di lapangan.' },
     { num: '04', title: 'Temuan', desc: 'Menstrukturkan pernyataan ketidaksesuaian secara objektif dengan format PLOR.' },
     { num: '05', title: 'Root Cause', desc: 'Menggali akar masalah yang mendasar menggunakan metode 5-Why terstruktur.' },
-    { num: '06', title: 'CAPA', desc: 'Merumuskan tindakan perbaikan (koreksi) dan tindakan pencegahan agar tidak berulang.' },
+    { num: '06', title: 'CAPA', desc: 'Merumuskan koreksi langsung dan tindakan korektif agar tidak berulang.' },
     { num: '07', title: 'Laporan', desc: 'Menyusun draf laporan audit yang terstruktur, jelas, dan siap ditindaklanjuti auditee.' },
   ];
 

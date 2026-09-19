@@ -40,7 +40,7 @@ export const ThreeCoreMachines: React.FC = () => {
       components: [
         { name: 'AI Checklist & 5W+1H Generator', desc: 'Draf pertanyaan terarah sesuai proses spesifik' },
         { name: 'Starting Point Pertanyaan Audit', desc: 'Tidak bingung menyusun kalimat wawancara' },
-        { name: 'Rekomendasi Bukti Objektif (Evidence)', desc: 'Panduan dokumen & rekaman yang wajib diverifikasi' },
+        { name: 'Rekomendasi Bukti Objektif (Evidence)', desc: 'Panduan dokumen & rekaman yang relevan untuk diverifikasi' },
         { name: 'ISO 19011 Co-Pilot Assistant', desc: 'Panduan tata cara & etika audit sesuai standar internasional' }
       ]
     },

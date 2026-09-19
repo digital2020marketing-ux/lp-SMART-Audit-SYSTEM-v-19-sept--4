@@ -22,7 +22,7 @@ export const CleanMobileSticky: React.FC = () => {
   if (!isVisible) return null;
 
   const handleCtaClick = () => {
-    trackCheckoutClick('sticky_cta', 'Sticky - AMBIL SEKARANG — Rp249.000');
+    trackCheckoutClick('sticky_cta', 'Sticky - AMBIL SEKARANG — Rp149.000');
   };
 
   const handleWhatsAppClick = () => {
@@ -36,7 +36,7 @@ export const CleanMobileSticky: React.FC = () => {
         <div className="flex-1 min-w-0 pr-1">
           <div className="flex items-center gap-1 mb-0.5">
             <span className="text-[10px] font-black text-amber-400 uppercase tracking-wider bg-amber-400/20 px-1.5 py-0.2 rounded border border-amber-400/40">
-              HEMAT 50%
+              HEMAT 70%
             </span>
             <span className="text-[10px] font-bold text-slate-400 truncate">
               ⚡ Akses Instan
@@ -44,7 +44,7 @@ export const CleanMobileSticky: React.FC = () => {
           </div>
           <div className="flex items-baseline gap-1.5">
             <span className="text-[19px] font-black text-white leading-tight">
-              Rp249.000
+              Rp149.000
             </span>
             <span className="text-[11px] text-slate-400 line-through">
               Rp497.000
@@ -56,7 +56,7 @@ export const CleanMobileSticky: React.FC = () => {
         <div className="flex items-center gap-1.5 shrink-0">
           {/* WhatsApp 1-Tap Quick Chat */}
           <a
-            href={getWhatsAppUrl('sticky_wa', 'Halo Admin, saya mau tanya / pesan SMART AUDIT SYSTEM Rp249.000 via WhatsApp.')}
+            href={getWhatsAppUrl('sticky_wa', 'Halo Admin, saya mau tanya / pesan SMART AUDIT SYSTEM Rp149.000 via WhatsApp.')}
             onClick={handleWhatsAppClick}
             aria-label="Chat WhatsApp Admin"
             className="w-[46px] h-[46px] bg-emerald-600 hover:bg-emerald-500 active:scale-[0.95] text-white rounded-xl flex items-center justify-center shadow-md shadow-emerald-900/40 border border-emerald-400/40 shrink-0"

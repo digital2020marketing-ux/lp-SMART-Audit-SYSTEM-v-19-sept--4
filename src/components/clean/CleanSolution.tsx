@@ -8,7 +8,7 @@ export const CleanSolution: React.FC = () => {
     { name: 'Evidence', desc: 'Verifikasi bukti objektif' },
     { name: 'Temuan', desc: 'Perumusan berbasis PLOR' },
     { name: 'Root Cause', desc: 'Analisis akar penyebab' },
-    { name: 'CAPA', desc: 'Koreksi & pencegahan' },
+    { name: 'CAPA', desc: 'Koreksi & tindakan korektif' },
     { name: 'Laporan', desc: 'Pelaporan ke manajemen' },
   ];
 
@@ -24,12 +24,12 @@ export const CleanSolution: React.FC = () => {
 
         {/* H2 */}
         <h2 className="text-[20px] sm:text-[26px] font-black text-slate-950 leading-[1.2] tracking-tight mb-3 text-center uppercase break-words px-1">
-          SATU WORKFLOW UNTUK SELURUH PROSES AUDIT INTERNAL
+          JALANKAN AUDIT DENGAN WORKFLOW YANG JELAS
         </h2>
 
         {/* Subheadline */}
         <p className="text-[14px] sm:text-[16px] text-slate-700 font-medium leading-relaxed mb-6 text-center">
-          Sistem kerja audit yang menghubungkan setiap tahapan audit ke dalam satu alur eksekusi terstruktur:
+          Workflow SMART AUDIT SYSTEM disusun dengan mengacu pada prinsip dan pedoman ISO 19011, menghubungkan setiap tahapan audit ke dalam satu alur kerja terstruktur:
         </p>
 
         {/* Visual Workflow: Horizontal on desktop/tablet, clean scrollable / vertical on mobile */}

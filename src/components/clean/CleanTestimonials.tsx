@@ -6,35 +6,35 @@ export const CleanTestimonials: React.FC = () => {
   const checkoutUrl = getCheckoutUrl();
 
   const handleCtaClick = () => {
-    trackCheckoutClick('testimonials_cta', 'Testimonials - AMBIL SMART AUDIT SYSTEM — Rp249.000');
+    trackCheckoutClick('testimonials_cta', 'Testimonials - AMBIL SMART AUDIT SYSTEM — Rp149.000');
   };
   const screenshots = [
     {
       id: 1,
-      benefit: 'Checklist & Pertanyaan Lebih Terarah',
-      caption: 'Mempermudah penyusunan poin observasi dan checklist audit di lapangan.',
+      benefit: 'CHECKLIST AUDIT',
+      caption: 'Contoh bagaimana checklist digunakan saat audit di lapangan untuk memandu pemeriksaan klausul dan proses.',
       webp: '/images/testi2.webp',
       png: '/images/testi2.png',
       remoteUrl: SMARTBOOK_IMAGES.testi2?.url,
-      alt: 'Tangkapan layar pengguna - Checklist & Pertanyaan Lebih Terarah',
+      alt: 'Tangkapan layar penggunaan - Checklist Audit',
     },
     {
       id: 2,
-      benefit: 'PLOR & CAPA Lebih Mudah Dipahami',
-      caption: 'Membantu merumuskan temuan audit secara objektif dan menentukan tindakan korektif.',
+      benefit: 'PLOR & CAPA',
+      caption: 'Contoh merumuskan temuan audit berbasis bukti objektif dan menyusun tindakan korektif yang terstruktur.',
       webp: '/images/testi1.webp',
       png: '/images/testi1.png',
       remoteUrl: SMARTBOOK_IMAGES.testi1?.url,
-      alt: 'Tangkapan layar pengguna - PLOR & CAPA Lebih Mudah Dipahami',
+      alt: 'Tangkapan layar penggunaan - PLOR & CAPA',
     },
     {
       id: 3,
-      benefit: 'Lebih Siap Saat Mendapat Tugas Audit Mendadak',
-      caption: 'Framework dan workbook siap pakai mempercepat persiapan tanpa harus membuat file dari awal.',
+      benefit: 'SIMULASI AUDIT MENDADAK',
+      caption: 'Contoh bagaimana sistem membantu auditor ketika harus siap melakukan audit internal tanpa harus membuat file dari awal.',
       webp: '/images/testi5.webp',
       png: '/images/testi5.png',
       remoteUrl: SMARTBOOK_IMAGES.testi5?.url,
-      alt: 'Tangkapan layar pengguna - Lebih Siap Saat Mendapat Tugas Audit Mendadak',
+      alt: 'Tangkapan layar penggunaan - Simulasi Audit Mendadak',
     },
   ];
 

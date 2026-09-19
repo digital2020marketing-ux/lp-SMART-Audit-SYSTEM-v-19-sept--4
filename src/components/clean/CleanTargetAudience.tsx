@@ -1,5 +1,4 @@
 import React from 'react';
-import { getWhatsAppUrl, trackWhatsAppClick } from '../../constants';
 
 export const CleanTargetAudience: React.FC = () => {
   const primaryAudiences = [
@@ -87,29 +86,6 @@ export const CleanTargetAudience: React.FC = () => {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Ketentuan Lisensi Sesuai Priority 12 */}
-        <div className="p-4 rounded-xl bg-white border border-slate-300 text-left shadow-xs space-y-2">
-          <div className="text-[12px] font-black tracking-wider uppercase text-slate-500">
-            KETENTUAN LISENSI
-          </div>
-          <div className="font-black text-slate-900 text-[14.5px]">
-            Lisensi Individual — 1 Pengguna
-          </div>
-          <p className="text-[13px] text-slate-600 leading-relaxed font-medium">
-            Workbook dapat disalin dan disesuaikan oleh pemegang lisensi untuk kebutuhan audit berbagai departemen dan periode audit.
-          </p>
-          <div className="pt-2 border-t border-slate-200 flex items-center justify-between text-[12.5px] font-bold text-slate-700">
-            <span>Butuh Multi-User / Corporate License?</span>
-            <a
-              href={getWhatsAppUrl('corporate_license', 'Halo Admin, saya ingin menanyakan mengenai Corporate / Multi-User License untuk SMART AUDIT SYSTEM.')}
-              onClick={() => trackWhatsAppClick('corporate_license')}
-              className="text-blue-700 hover:text-blue-900 font-extrabold hover:underline"
-            >
-              Hubungi Admin →
-            </a>
-          </div>
         </div>
       </div>
     </section>

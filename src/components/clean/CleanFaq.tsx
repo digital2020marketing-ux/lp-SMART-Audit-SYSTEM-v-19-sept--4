@@ -7,7 +7,7 @@ export const CleanFaq: React.FC = () => {
   const faqs = [
     {
       q: 'Apakah cocok untuk pemula yang baru bertugas di audit internal?',
-      a: 'Sangat cocok. SMART AUDIT SYSTEM dirancang khusus agar Anda tidak perlu memulai dari file kosong. Anda langsung dipandu langkah demi langkah: mulai dari checklist klausul, bank pertanyaan terarah, panduan verifikasi bukti, formula PLOR untuk menulis temuan tanpa ragu, hingga format laporan audit resmi yang siap pakai.',
+      a: 'Sangat cocok. SMART AUDIT SYSTEM dirancang khusus untuk auditor pemula yang butuh panduan sistem kerja nyata. Anda dipandu langkah demi langkah: mulai dari alur perencanaan audit terstruktur, teknik investigasi bukti objektif saat berhadapan dengan auditee, metodologi PLOR untuk merumuskan temuan yang akurat, hingga format laporan audit resmi untuk manajemen.',
     },
     {
       q: 'Bagaimana cara mendapatkan akses setelah pembayaran?',

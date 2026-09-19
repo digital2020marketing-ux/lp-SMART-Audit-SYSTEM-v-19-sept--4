@@ -10,8 +10,8 @@ export const BASE_CHECKOUT_URL =
 export const SCALEV_FALLBACK_URL = BASE_CHECKOUT_URL;
 export const CHECKOUT_URL = BASE_CHECKOUT_URL;
 export const META_PIXEL_ID = '1031140289908433';
-export const CHECKOUT_PRICE = 249000;
-export const CHECKOUT_PRICE_LABEL = 'Rp249.000';
+export const CHECKOUT_PRICE = 149000;
+export const CHECKOUT_PRICE_LABEL = 'Rp149.000';
 export const PACKAGE_VALUE_PRICE = 497000;
 export const PACKAGE_VALUE_LABEL = 'Rp497.000';
 
@@ -23,7 +23,7 @@ export function getCheckoutUrl(): string {
 }
 
 export const WA_SUPPORT_MESSAGE = 
-  'Halo Admin, saya ingin bertanya mengenai SMART AUDIT SYSTEM (Rp249.000). Mohon bantuannya. Terima kasih!';
+  'Halo Admin, saya ingin bertanya mengenai SMART AUDIT SYSTEM (Rp149.000). Mohon bantuannya. Terima kasih!';
 
 /**
  * Helper to get direct WhatsApp URL for questions/support
@@ -94,7 +94,7 @@ export const PAYMENT_METHODS: PaymentMethodOption[] = [
 ];
 
 export const DEFAULT_PREFILLED_MESSAGE = 
-  'Halo Admin, saya ingin membeli SMART AUDIT SYSTEM seharga Rp249.000. Mohon info nomor rekening / cara pembayarannya untuk akses instan.';
+  'Halo Admin, saya ingin membeli SMART AUDIT SYSTEM seharga Rp149.000. Mohon info nomor rekening / cara pembayarannya untuk akses instan.';
 
 export const DEFAULT_QUESTION_MESSAGE = 
   'Assalamualaikum Admin SMART AUDIT SYSTEM, saya mau tanya tentang SMART AUDIT SYSTEM...';
