@@ -25,9 +25,9 @@ export const HighConvertingLandingPage: React.FC = () => {
 
         {/* Jembatan 1: Hero -> Problem */}
         <NarrativeBridge
-          question="Mengapa Banyak Auditor Ragu di Lapangan?"
-          statement="Di balik sertifikat pelatihan ISO, ada 5 kendala eksekusi nyata yang sering dihadapi auditor pemula."
-          destination="5 Kendala Nyata Eksekusi Audit"
+          question="Mengapa Banyak yang Panik Saat Ditunjuk Audit Mendadak?"
+          statement="Di balik sertifikat pelatihan ISO, ada 5 kendala eksekusi nyata yang membuat auditor pemula merasa bingung dan belum siap."
+          destination="5 Kendala Nyata Saat Ditunjuk Audit"
           bgColor="bg-slate-50/50"
         />
 

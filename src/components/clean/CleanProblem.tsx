@@ -40,8 +40,8 @@ export const CleanProblem: React.FC = () => {
         </div>
 
         {/* H2 */}
-        <h2 className="text-[20px] sm:text-[26px] font-black text-slate-950 leading-[1.25] tracking-tight mb-6 text-center uppercase break-words px-1">
-          SUDAH PAHAM ISO, TAPI MASIH BINGUNG SAAT HARUS EKSEKUSI AUDIT?
+        <h2 className="text-[20px] sm:text-[25px] font-black text-slate-950 leading-[1.22] tracking-tight mb-6 text-center uppercase break-words px-1">
+          DITUNJUK AUDIT MENDADAK? INI 5 KENDALA NYATA YANG SERING MEMBUAT BINGUNG
         </h2>
 
         {/* Problem Cards 01 - 05 */}
