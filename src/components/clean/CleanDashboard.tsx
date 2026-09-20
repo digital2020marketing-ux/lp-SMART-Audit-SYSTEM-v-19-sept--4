@@ -19,7 +19,7 @@ export const CleanDashboard: React.FC = () => {
 
         {/* Copy */}
         <p className="text-[14.5px] sm:text-[17px] text-slate-800 font-medium leading-relaxed mb-6 text-center mx-auto max-w-[460px]">
-          Tidak perlu lagi repot mencari-cari file yang tercecer di berbagai folder. Akses modul kerja, 7 workbook audit, prompt AI, dan simulasi kasus langsung dari satu pintu sistem terpusat.
+          Tidak perlu lagi repot mencari-cari file yang tercecer di berbagai folder. Akses modul kerja, 7 workbook audit, Framework AI yang sudah disetting sesuai konteks, dan simulasi kasus langsung dari satu pintu sistem terpusat.
         </p>
 
         {/* Screenshot Dashboard Utama */}
